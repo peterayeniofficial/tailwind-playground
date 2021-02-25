@@ -14,7 +14,7 @@ export default function Card({ property }) {
           <h3 className="text-lg font-semibold text-gray-800 ">{city}</h3>
           <p className="text-gray-600">{averagePrice} / night average</p>
           <div>
-            <a className="text-yellow-500 text-sm font-semibold hover:text-yellow-600">Explore {propertyCount} properties</a>
+            <a className=" text-brand-secondary text-sm font-semibold hover:text-yellow-600">Explore {propertyCount} properties</a>
           </div>
         </div>
       </div>
