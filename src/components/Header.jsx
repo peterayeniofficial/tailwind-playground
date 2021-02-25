@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <div className=" bg-gray-200 grid lg:grid-cols-2 ">
+        <div className=" bg-gray-100 grid lg:grid-cols-2 ">
         <div className=" xl:max-w-xl">
           <div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:max-w-xl 2xl:ml-20">
             <img className="h-10" src="./img/fuel-my-hustle-logo.png" alt="logo" />
