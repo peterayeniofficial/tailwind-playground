@@ -1,3 +1,9 @@
 @tailwind base;
-@tailwind component;
+@tailwind components;
+
 @tailwind utilities;
+@layer components {
+  .btn {
+    @apply inline-block px-5 py-3 rounded-lg bg-yellow-400 hover:bg-yellow-100 hover:translate-y-0.5 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-yellow-400 focus:ring-opacity-50 transform transition active:bg-yellow-600 text-white uppercase tracking-wide font-semibold text-sm shadow-lg sm:text-base;
+  }
+}
